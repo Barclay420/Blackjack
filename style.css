@@ -12,9 +12,11 @@ body {
 .hero-image {
     width: 100%;
     height: 100%;
-    position: absolute;
+
     object-fit: cover;
     z-index: -999;
+
+    position: absolute;
 }
 
 .hero-content {
@@ -25,10 +27,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    position: absolute
 }
 
-h2{
+h2 {
     margin-top: 20px;
     margin-left: 30px;
     display: none;
@@ -43,28 +45,30 @@ h2{
     top: 35%;
     font-size: 72px;
     text-transform: uppercase;
-    color: white
-    
+    color: black
 }
-#start{
+
+#start {
     font-family: "Garamond", Times, serif;
     font-weight: normal;
     cursor: pointer;
 }
 
-main .games{
+main .games {
     display: none;
 }
-main.gaming .games{
+
+main.gaming .games {
     display: block;
 }
-main.gaming h1{
+
+main.gaming h1 {
     display: none;
 }
-.hero-img{
+
+#blackjackgame {
     width: 33%;
     height: 33%;
-    position: absolute;
-    object-fit: cover;
+    position: center;
     z-index: -999;
 }

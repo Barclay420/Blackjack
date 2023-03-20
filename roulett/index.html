@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Roulette</title>
+        <link rel="stylesheet" href="style.css" media="screen">
+        <script src="raphael.js"></script>
+        <script src="java.js"></script>
+    </head>
+    <body>
+       <div id="header">
+    		<h1>Roulette</h1>
+    		<p>Raphaël-rendered roulette wheel.</p>
+       </div>
+       <div id="body">
+        	<div id="controls">
+            <img class="Barclay" scr="Barclay-Logo.png">
+            <img class="rouletteWheel" scr="nedladdning.png">
+            <img class="rouletteTable" src="table (1).jpg">
+        		<ul>
+        			<li><a href="#" onclick="rouletteSpinner.doTogglePause()">Pause / Play</a></li>
+        			<li><a href="#" onclick="rouletteSpinner.doRollBall()">Roll Ball</a></li>
+        			<li><a href="#" onclick="rouletteSpinner.doTakeBall()">Take Ball</a></li>
+        		</ul>
+        	</div>
+        	<div id="rouletteTable">
+        		<div id="rouletteWheel"></div>
+        		<div id="ballWheel"></div>
+        		<div class="clearfix"></div>
+				<div id="chipTable"></div>
+        	</div>
+       </div>
+       
+       <div class="clearfix"></div>
+
+       <div id="footer">
+       </div>
+    </body>
+</html>
