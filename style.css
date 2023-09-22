@@ -4,11 +4,10 @@
 }
 
 body {
-    background-color: silver;
+    background-image: radial-gradient(circle, rgba(69,232,63,1) 0%, rgba(9,90,24,1) 92%, rgba(5,79,21,1) 100%);;
     height: 100vh;
     width: 100vw;
 }
-
 .hero-image {
     width: 100%;
     height: 100%;
@@ -18,6 +17,25 @@ body {
 
     position: absolute;
 }
+
+.blackjackimg {
+    width: 25%;
+    height: 25%;
+    position: center;
+    z-index: -999;
+    float: left;
+}
+.rouletteimg {
+    width: 33%;
+    height: 30%;
+    float: right;
+}
+.slotimg{
+    width: 33%;
+    height: 33%;
+    float: none;
+}
+
 
 .hero-content {
     width: 100%;
@@ -66,9 +84,7 @@ main.gaming h1 {
     display: none;
 }
 
-#blackjackgame {
-    width: 33%;
-    height: 33%;
-    position: center;
-    z-index: -999;
-}
+
+
+
+

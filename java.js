@@ -1,4 +1,4 @@
-var timer;
+var timer; 
 document.addEventListener("DOMContentLoaded", function(){
 const start = document.getElementById('start');
 const game = document.getElementById('game');

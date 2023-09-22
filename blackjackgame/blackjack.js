@@ -49,10 +49,10 @@ function startGame() {
     shuffleDeck();
     document.getElementById("dealer-cards").innerHTML ='<img id="hidden" src="./assets/BACK.png">';
     document.getElementById("your-cards").innerHTML = "";
-    console.log(document.getElementById("bet").value);
-    bet = document.getElementById("bet").value;
+    console.log(document.getElementById("betting").value);
+    bet = document.getElementById("betting").value;
     if (bet != "") {
-        document.getElementById("bet").value = "";
+        document.getElementById("betting").value = "";
 
         hidden = deck.pop();
         dealerSum += getValue(hidden);
